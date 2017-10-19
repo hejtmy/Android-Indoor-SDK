@@ -176,7 +176,7 @@ override fun onStop() {
 ...
 ```
 ## Scanning in the background
-Since version `2.0.0` it is possible to scan when the app is in the background (or even killed). For it to work, you need to display a notification to the user. This will ensure that the systen won't eventually kill the scanning and is necessary since the Android 8.0. Here is how to do this:
+Since version `2.0.0` it is possible to scan when the app is in the background (or even killed). For it to work, you need to display a notification to the user. This will ensure that the system won't eventually kill the scanning, and is necessary since the Android 8.0. Here is how to do this:
 1. Declare an notification object like this: 
 ``` Kotlin
 // KOTLIN
